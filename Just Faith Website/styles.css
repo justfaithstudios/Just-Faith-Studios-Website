@@ -105,7 +105,13 @@ img {
     display: flex;
 }
 
+.fas {
 
+ font-size: x-large;
+ padding-top: 15px;
+ padding-bottom: 12x;
+ text-align: center;
+}
 
 section h1 {
     font-size: 3rem;
@@ -128,10 +134,17 @@ section#work{
     background: url('./images/dev7.PNG') no-repeat center center/cover;
 }
 
-section#contact {
+section#services {
     background: url('./images/dev2.jpg') no-repeat center center/cover;
 }
 
+section#contact {
+    background: repeating-linear-gradient(black,rgb(56, 56, 56))  no-repeat center center/cover;
+}
+
+section#donate {
+    background: repeating-linear-gradient(black,rgb(56, 56, 56))  no-repeat center center/cover;
+}
 
 
 svg {

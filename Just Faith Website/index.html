@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Just Faith Studios</title>
     <link rel="stylesheet" href="styles.css">
-    <linl rel="icon" href="./images/favicon.ico"/>
+    <link rel="icon" href="./images/favicon.ico"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-   
 </head>
 <body>
 
@@ -28,6 +28,7 @@
            <ul class="nav">
                <li><a href="#home">Home</a></li>
                <li><a href="#work">Games/Apps</a></li>
+               <li><a href="#services">Services</a></li>
                <li><a href="#contact">Contact</a></li>
                <li><a href="#donate">Donate</a></li>
                
@@ -43,6 +44,7 @@
         <a class="btn-close" onclick="closeSlideMenu()">&times;</a>
         <a href="#home">Home</a>
         <a href="#work">Games/Apps</a>
+        <a href="#services">Services</a>
         <a href="#contact">Contact</a>
         <a href="#donate">Donate</a>
       </div>
@@ -57,19 +59,33 @@
    
    <section id="work">
        <h1>Games & Apps</h1> <br>
-       <p><a href="https://apps.apple.com/us/developer/jesse-williams/id1436125089">iOS Development</a> <br> <br> 
-        <a href="https://play.google.com/store/apps/dev?id=6959031497112094004">Android Development</a> </p>
+       <p><a href="https://apps.apple.com/us/developer/jesse-williams/id1436125089">iOS Development</a> <br> <br>
+        <a href="https://play.google.com/store/apps/dev?id=6959031497112094004">Android Development</a> <br> <br>
+        <a href="https://chrome.google.com/webstore/detail/sales-tax-calculator/eedfibgeapaonndcncbibbajnmomdhei">Chrome Extensions</a>
+      </p>
+       
    </section>
    
-   <section id="contact">
-       <h1>Contact</h1>
-       <p>Email Jesse@jaewilliams.com</p>
+   <section id="services">
+       <h1>Services</h1>
+       <p>App, Game & Web Development</p>
+       <p>Software Consulting</p>
    </section>
+
+
+   <section id="contact">
+    <h1>Contact Us</h1> <br>
+    <p><a href="mailto:justfaithstudios@gmail.com">Send Email</a></p>
+    <p>or</p>
+    <p><a href="tel:9373151533">Call 937-315-1533</a></p>
+   </p>
+    
+</section>
 
 
    <section id="donate">
     <h1>Donate</h1> <br>
-    <p>
+    
      <p>All donations are greatly appreciated. </p> <br>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_donations" />
@@ -77,17 +93,13 @@
             <input type="hidden" name="currency_code" value="USD" />
             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
             <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-            </form>
-            
-    </p>
+            </form>      
 </section>
 
     
    </div>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-  <!--  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script> -->
     <script src="main.js"></script>
-
     <script>
         function openSlideMenu(){
           document.getElementById('side-menu').style.width = '250px';
