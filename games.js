@@ -15,3 +15,4 @@ document.getElementById("chrome").onclick = () =>
     window.open("https://chrome.google.com/webstore/detail/sales-tax-calculator/eedfibgeapaonndcncbibbajnmomdhei");
     
 }
+
