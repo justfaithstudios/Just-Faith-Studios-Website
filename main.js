@@ -23,11 +23,6 @@ document.getElementById("instagram").onclick = () =>
     
 }
 
-document.getElementById("games").onclick = () =>
-{
-    window.open("https://justfaithstudios.com/games.html");
-    
-}
 
 
 
