@@ -13,7 +13,7 @@ document.getElementById("tiktok").onclick = () =>
 
 document.getElementById("facebook").onclick = () =>
 {
-    window.open("https://facebook.com/realjaewilliams");
+    window.open("https://facebook.com/imjaewilliams");
     
 }
 
