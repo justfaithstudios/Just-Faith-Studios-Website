@@ -1,5 +1,5 @@
 
-document.getElementById("twitter").onclick = () =>
+/* document.getElementById("twitter").onclick = () =>
 {
     window.open("https://twitter.com/imjaewilliams");
     
@@ -20,6 +20,12 @@ document.getElementById("facebook").onclick = () =>
 document.getElementById("instagram").onclick = () =>
 {
     window.open("https://instagram.com/imjaewilliams");
+    
+} */
+
+document.getElementById("playNow").onclick = () =>
+{
+    window.open("https://justfaithstudios.com/games");
     
 }
 

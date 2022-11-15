@@ -19,6 +19,16 @@ body {
     height: 100%;  
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 h1 {
     font-size: large;
 }
@@ -108,16 +118,43 @@ button {
     color: rgb(0, 166, 255);
    
 }
+
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.icons {
+ padding-top: 50px;
+ margin: 0 auto;
+ width: 50%;
+ display: flex;
+ justify-content: center;
+ font-size: xx-large;
+}
+
 button:hover {
     background-color: rgb(130, 130, 130);
 }
 
 .fab {
-    margin-right: 7px;
+    margin-right: 20px;
+    color: white;
 }
 
 .fas {
-    margin-right: 7px;
+    margin-right: 20px;
+    color: white;
 }
 
 section h1 {
@@ -145,6 +182,8 @@ svg {
 
 @media screen and (min-width:626px){
     .open-slide{display:none;}
+    #gameVid{width:560px;}
+    #gameVid{height:315px;}
    
   }
 
