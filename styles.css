@@ -14,7 +14,7 @@ body {
     color: #fff;
     line-height: 1.6;
     /*background: repeating-linear-gradient(rgb(147, 147, 147),rgb(0, 0, 0)) no-repeat center center fixed; */
-    background:  url('./images/game4.jpg') repeat center/cover fixed !important;
+    background:  url('./images/game5.jpg') repeat center/cover fixed !important;
     overflow: auto;
     height: 100%;  
 }
