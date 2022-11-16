@@ -14,7 +14,7 @@ body {
     color: #fff;
     line-height: 1.6;
     /*background: repeating-linear-gradient(rgb(147, 147, 147),rgb(0, 0, 0)) no-repeat center center fixed; */
-    background:  url('./images/game3.jpg') repeat center/cover fixed !important;
+    background:  url('./images/game4.jpg') repeat center/cover fixed !important;
     overflow: auto;
     height: 100%;  
 }
@@ -102,7 +102,7 @@ section {
 button {
     display: block;
     border:1px solid whitesmoke; 
-    background-color: transparent;
+    background-color: black;
     height: 50px;
     width: 225px;
     margin-top: 30px;
@@ -113,26 +113,16 @@ button {
     border-radius: 20px;
 }
 
+button:hover {
+    background-color: rgb(32, 32, 32);
+}
+
 .fa-check-circle {
     margin-left: 7px;
     color: rgb(0, 166, 255);
    
 }
 
-.iframe-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
-    height: 0;
-}
-
-.responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 .icons {
  padding-top: 50px;
@@ -141,10 +131,6 @@ button {
  display: flex;
  justify-content: center;
  font-size: xx-large;
-}
-
-button:hover {
-    background-color: rgb(130, 130, 130);
 }
 
 .fab {
@@ -228,4 +214,8 @@ svg {
       color: #fff;
       text-align: center;
   }
+
+
+
+
 
