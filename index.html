@@ -1,69 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Just Faith Studios | Home</title>
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+    <title>
+     Just Faith Studios | Home
+    </title>
+  
+    <meta name="description" content="Add small description of yourslef.">
+    <meta name="keywords" content="Put your name, skills and some coding keywords" />
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://kit.fontawesome.com/e34bf9a5c4.js" crossorigin="anonymous"></script>
-</head>
+  </head>
 <body>
-
-   <div class="container">
-       <nav class="navbar">
-        <span class="open-slide">
-            <a onclick="openSlideMenu()">
-              <svg width="30" height="30">
-                  <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
-                  <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
-                  <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
-              </svg>
-            </a>
-          </span>
-           <ul class="nav">
-               <li><a href="index.html">Home</a></li>
-               <li><a href="games.html">Games/Apps</a></li>
-               <li><a href="contact.html">Contact</a></li>
-               <li><a href="donate.html">Donate</a></li>
-           </ul>     
-       </nav>
-
-       <div id="side-menu" class="side-nav">
-        <a class="btn-close" onclick="closeSlideMenu()">&times;</a>
-        <a href="index.html">Home</a>
-        <a href="games.html">Games/Apps</a>
-        <a href="contact.html">Contact</a>
-        <a href="donate.html">Donate</a>
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="games.html" class="nav__link">Games/Apps</a></li>
+          <li class="nav__item">
+            <a href="contact.html" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Just Faith Studios</span>
+        </h1>
+        <p>EST 2018</p>
+        <a href="games.html" class="btn btn--pink">Our Games</a>
       </div>
+    </div>
+  </header>
 
-  <section id="home">
-    <h1 id="">Just Faith Studios</h1>
-    <div class="">
-      <iframe id="gameVid" width="100%" height="100%" src="https://www.youtube.com/embed/Q6dyxE4PB_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/imjaewilliams" class="fab fa-twitter"></a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://instagram.com/imjaewilliams" class="fab fa-instagram"></a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://tiktok.com/@imjaewilliams" class="fab fa-tiktok"></a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://facebook.com/imjaewilliams" class="fab fa-facebook"></a>
+        </li>
+      </ul>
+      <p>
+        &copy; 2022 - Site developed & designed by <a href="https://nisar.dev" class="link">Nisar</a> & <a href="https://justfaithstudios.com" class="link">Jae Williams of Just Faith Studios</a> .
+      </p>
     </div>
-    <div>
-      <button id="playNow">Play Now</button>
-    </div>
-    <div class="icons">
-      <a href="https://twitter.com/imjaewilliams" class="fab fa-twitter"></a>
-      <a href="https://www.tiktok.com/@imjaewilliams" class="fab fa-tiktok"></a>
-      <a href="https://instagram.com/imjaewilliams" class="fab fa-instagram"></a>
-      <a href="https://facebook.com/imjaewilliams" class="fab fa-facebook"></a>
-    </div>
-   </section>
-   <footer>COPYRIGHT © 2020 Just Faith Studios LLC - ALL RIGHTS RESERVED.</footer>
-   </div>
-    <script src="main.js"></script>
-    <script>
-        function openSlideMenu(){
-          document.getElementById('side-menu').style.width = '250px';
-         
-        }
-    
-        function closeSlideMenu(){
-          document.getElementById('side-menu').style.width = '0';
-            
-        }
-      </script>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
 </body>
 </html>
