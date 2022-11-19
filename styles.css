@@ -35,7 +35,7 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #121212;
+    --pink: #676767;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -413,8 +413,9 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Header ----- */
 /* --------------------------------------- */
 
+
 .header {
-    background: url('./images/game2.jpg') no-repeat center center/cover;
+    background: url('./images/bg1.jpg') no-repeat center center/cover;
     height: 100vh;
     font-size: var(--font-size-normal);
 }
