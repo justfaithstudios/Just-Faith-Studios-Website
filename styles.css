@@ -414,7 +414,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: url('./images/game5.jpg') no-repeat center center/cover;
+    background: url('./images/game2.jpg') no-repeat center center/cover;
     height: 100vh;
     font-size: var(--font-size-normal);
 }
