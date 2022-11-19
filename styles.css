@@ -35,7 +35,7 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #717171;
+    --pink: #1e1e1e;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -415,7 +415,7 @@ body:not(.user-is-tabbing) a:focus {
 
 
 .header {
-    background: repeating-radial-gradient(rgb(77, 74, 80),rgb(0, 0, 0)) no-repeat center center/cover;
+    background: url('./images/bg5.jpg') no-repeat center center/cover;
     height: 100vh;
     font-size: var(--font-size-normal);
 }
