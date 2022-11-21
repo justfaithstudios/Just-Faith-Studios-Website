@@ -138,6 +138,7 @@ h3 {
     color: var(--white);
 }
 
+
 .heading-primary {
     line-height: 1;
     font-size: var(--font-size-huge);
@@ -415,9 +416,10 @@ body:not(.user-is-tabbing) a:focus {
 
 
 .header {
-    background: url('./images/bg5.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgb(144, 144, 144),rgb(0, 0, 0)) no-repeat center center/cover;
     height: 100vh;
     font-size: var(--font-size-normal);
+    
 }
 
 .header__text {
