@@ -230,6 +230,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
+    border-radius: 20px;
     border: 1px solid  var(--pink);
     font-weight: 400;
 }
@@ -355,6 +356,8 @@ body:not(.user-is-tabbing) a:focus {
 .nav__items {
     display: flex;
     list-style: none;
+    font-weight: 700;
+    font-size: larger;
 }
 
 .nav__item:not(:last-child) {
