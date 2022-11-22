@@ -357,7 +357,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     list-style: none;
     font-weight: 700;
-    font-size: larger;
+    
 }
 
 .nav__item:not(:last-child) {
