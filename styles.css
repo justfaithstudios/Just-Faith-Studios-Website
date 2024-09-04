@@ -71,7 +71,7 @@ body {
     color: var(--white-1);
     line-height: var(--line-height-normal);
     background: var(--black);
-    overflow: auto;
+    overflow-x: hidden;
 }
 
 .row {
